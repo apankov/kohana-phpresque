@@ -9,7 +9,7 @@ Usage
 ``` bash
     $ cd modules
     $ git clone https://github.com/apankov/kohana-phpresque php-resque
-    $ cd kohana-phpresque
+    $ cd php-resque
     $ git submodule init
     $ git submodule update
 ```
