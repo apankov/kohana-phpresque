@@ -1,6 +1,6 @@
-<?php
+<?php defined('SYSPATH') or die('No direct script access.');
 
-if (! class_exists('Resque'))
+if ( ! class_exists('Resque'))
 {
-	require_once dirname(__FILE__) . '/vendor/php-resque/lib/Resque.php';
+	require_once Kohana::find_file(NULL, 'vendor/php-resque/lib/Resque');
 }
